@@ -69,6 +69,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 /*about section style*/
 .about{
 margin-top: 130px;
@@ -78,10 +81,10 @@ padding: 130px 150px;
 text-align: center;
 }
 .section-title{
-
+text-align: center;
 font-weight:700px ;
 font-size: 35px;
-margin-bottom: 30px;
+margin-bottom: 50px;
 }
 .section-des{
     color: rgb(34, 32, 29);
@@ -101,3 +104,24 @@ margin-bottom: 30px;
     font-size: 20px;
     color: #474747;
 }
+/* what i do style */
+
+.skill-container{
+    display: flex;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-des{
+    color: #757575;
+}
+/* resume  */
